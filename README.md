@@ -34,28 +34,29 @@ El Desafío Amigo Secreto es un paso importante para el éxito en el programa ON
 
 
 
-## English
+# English
 
-##Secret Friend Challenge
+
+# Secret Friend Challenge
 
 This project is part of the Alura ONE program and consists of a web application to organize the traditional Secret Santa game.
 
-##Description
+## Description
 
 The application allows you to add friends' names, delete them if necessary, and perform the draw randomly, ensuring that each participant receives a different secret friend.
 
-##Features
+## Features
 
 - Add and remove friends from the list.
 - Automatic secret friend draw.
 - Simple and user-friendly interface.
 
-##Requirements
+## Requirements
 
 - Modern web browser (Chrome, Firefox, Edge, etc.).
 - No additional installation required.
 
-##Usage
+## Usage
 
 - Clone this repository or download the files.
 - Open the index.html file in your browser.
