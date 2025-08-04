@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
+    --color-primary: #B2B5E0;
+    --color-secondary: #f7f4ef;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-button: #27c7b2;
+    --color-button-hover: #278b8b;
+    --color-text: #000000;
+    --color-white: #ffffff;
 }
 
 /* Estilos generales */
@@ -55,25 +55,25 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Merriweather", Georgia, serif;
     font-weight: 900;
-    font-style: italic;
-    color: var(--color-white);
+    font-style: oblique;
+    color: #000102;
 }
 
 .section-title {
     font-family: "Inter", serif;
     font-size: 36px;
     font-weight: 700;
-    color: var(--color-primary);
+    color: #010408;
     margin: 10px 0;
-    text-align: center;
+    text-align: right;
 }
 
 /* Contenedores de entrada y botón */
 .input-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
     max-width: 600px;
     margin-top: 20px;
@@ -82,9 +82,9 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #FF595A;
     border-radius: 25px 0 0 25px;
-    font-size: 16px;
+    font-size: px;
 }
 
 .button-container {
@@ -116,7 +116,7 @@ button {
 }
 
 .button-add {
-    background-color: var(--color-tertiary);
+    background-color: #FF595A;
     color: var(--color-text);
     border-radius: 0 25px 25px 0;
 }
@@ -130,7 +130,7 @@ ul {
     list-style-type: none;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     margin: 20px 0;
 }
 
@@ -149,7 +149,7 @@ ul {
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+    background-color: #FF595A;
     font-size: 16px;
 }
 
@@ -159,4 +159,43 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+/* Estilos de imagen */
+.header-banner img {
+    max-width: 100%;
+    height: auto;
+}
+/* Estilos de lista de amigos */
+.amigo-list {   
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    max-width: 600px;
+}
+
+.amigo-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 5px solid #d43636;
+}
+.amigo-list li:last-child {
+    border-bottom: none;
+}
+.button-reinicio {
+    background-color: #FF595A;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.button-reinicio:hover {
+    background-color: #a1a1a1;
+    color: #000;
 }
